@@ -1,0 +1,2 @@
+float64 dt
+ipab_controller_msgs/EffortFeedforwardWithJointFeedback[] trajectory
