@@ -7,8 +7,8 @@
   <version>0.0.1</version>
   <description>Commonly used messages for controllers.</description>
 
-  <maintainer email="wolfgang.merkt@ed.ac.uk">Wolfgang Merkt</maintainer>
-  <author email="wolfgang.merkt@ed.ac.uk">Wolfgang Merkt</author>
+  <maintainer email="opensource@wolfgangmerkt.com">Wolfgang Merkt</maintainer>
+  <author email="opensource@wolfgangmerkt.com">Wolfgang Merkt</author>
   <license>BSD</license>
 
   <url type="repository">https://github.com/ipab-slmc/ipab_controller_msgs</url>
