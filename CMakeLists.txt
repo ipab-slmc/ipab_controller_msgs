@@ -8,9 +8,15 @@ add_message_files(
   FILES
   EffortFeedforwardWithJointFeedback.msg
   EffortFeedforwardWithJointFeedbackTrajectory.msg
+  FeedbackPolicy.msg
 )
 generate_messages(DEPENDENCIES std_msgs)
 
 catkin_package(
+  INCLUDE_DIRS include
   CATKIN_DEPENDS message_runtime std_msgs
+)
+
+install(DIRECTORY include/${PROJECT_NAME}/
+  DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
 )
