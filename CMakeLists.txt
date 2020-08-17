@@ -8,6 +8,7 @@ add_message_files(
   FILES
   EffortFeedforwardWithJointFeedback.msg
   EffortFeedforwardWithJointFeedbackTrajectory.msg
+  FeedbackPolicy.msg
 )
 generate_messages(DEPENDENCIES std_msgs)
 
